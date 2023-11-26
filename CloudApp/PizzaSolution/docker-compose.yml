@@ -1,0 +1,9 @@
+
+version: '3.4'
+
+services:
+  pizzaconsoleapp:
+    image: pizzaconsoleapp
+    build:
+      context: .
+      dockerfile: PizzaConsoleApp/Dockerfile
